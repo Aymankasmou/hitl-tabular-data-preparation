@@ -1,0 +1,156 @@
+column,original_value,suggested_value,affected_rows,reason,confidence
+job,blu-collar,blue-collar,7,Typo: missing 'e' in 'blue' and extra '-' in 'collar',0.9
+job,amin.,admin.,6,Typo: 'amin' likely meant 'admin' (common misspelling),0.8
+job,techician,technician,6,Typo: missing 'n' in 'technician',0.9
+job,lue-collar,blue-collar,5,Typo: missing 'b' in 'blue' and extra 'l' in 'collar',0.8
+job,managemen,management,4,Typo: missing 'a' and 't' in 'management',0.9
+job,echnician,technician,4,Missing 't' in the spelling; common typo for 'technician',0.8
+job,techncian,technician,4,Typo with extra 'n' and missing 't'; common misspelling of 'technician',0.7
+job,manaement,management,4,Typo with missing 'g' and extra 'e'; common misspelling of 'management',0.8
+job,managemet,management,4,Typo with missing 'g' and extra 't'; common misspelling of 'management',0.7
+job,blue-colla,blue-collar,4,Missing 'r' in the spelling; common typo for 'blue-collar',0.8
+job,manageent,management,4,"Typo for 'management' (missing 'g', extra 'e')",0.9
+job,technicia,technician,4,"Typo for 'technician' (missing 'n', extra 'i')",0.9
+job,servces,services,4,"Typo for 'services' (missing 'i', extra 's')",0.9
+job,managemnt,management,3,"Typo for 'management' (missing 'g', extra 't')",0.8
+job,managment,management,3,Typo for 'management' (extra 'm'),0.8
+job,adin.,admin.,3,Typo for 'admin.' (missing 'm'),0.9
+job,bue-collar,blue-collar,3,Typo for 'blue-collar' (missing 'l' and has extra 'u'),0.9
+job,dmin.,admin.,3,Typo for 'admin.' (missing 'a' and has extra 'd'),0.9
+job,bluecollar,blue-collar,3,Missing hyphen in 'blue-collar',0.9
+job,techniian,technician,3,Typo for 'technician' (extra 'i' and missing 'c'),0.9
+job,blue-ollar,blue-collar,3,"Typo in 'blue-collar' (missing 'r', extra 'l')",0.9
+job,tecnician,technician,3,"Typo in 'technician' (missing 'h', extra 'c')",0.9
+job,mangement,management,3,Typo in 'management' (missing 'a'),0.9
+job,anagement,unknown,3,Does not match any allowed value; likely a typo for 'management' but frequency is low and context unclear,0.5
+job,blue-collr,blue-collar,3,"Typo in 'blue-collar' (extra 'r', missing 'l')",0.9
+job,maagement,management,3,Typo: missing 'n' in 'management',0.9
+job,mnagement,management,2,Typo: missing 'm' at start of 'management',0.8
+job,technicin,technician,2,Typo: missing 'a' and extra 'i' in 'technician',0.7
+job,blue-colar,blue-collar,2,Typo: missing 'r' and extra '-' in 'blue-collar',0.8
+job,husemaid,housemaid,2,Typo: missing 'o' in 'housemaid',0.9
+job,reired,retired,2,Typo for 'retired' (missing 't'),0.9
+job,retird,retired,2,Typo for 'retired' (missing 'e'),0.9
+job,admin,admin.,2,Missing period at the end (matches 'admin.' in allowed values),0.8
+job,tchnician,technician,2,Typo for 'technician' (missing 'e'),0.9
+job,studet,student,2,Typo for 'student' (missing 'n'),0.9
+job,srvices,services,2,Typo: missing 'i' in 'services',0.9
+job,enrepreneur,entrepreneur,2,Typo: missing 't' in 'entrepreneur',0.9
+job,uknown,unknown,1,Typo: missing 'n' in 'unknown',0.9
+job,unemplyed,unemployed,1,Typo: missing 'o' in 'unemployed',0.9
+job,unemloyed,unemployed,1,Typo: missing 'o' in 'unemployed',0.9
+job,housemai,housemaid,1,Typo for 'housemaid' (missing 'd'),0.9
+job,houemaid,housemaid,1,Typo for 'housemaid' (extra 'e'),0.9
+job,sevices,services,1,Typo for 'services' (missing 'r'),0.9
+job,tehnician,technician,1,"Typo for 'technician' (missing 'n', extra 'h')",0.9
+job,unempoyed,unemployed,1,Typo for 'unemployed' (missing 'l'),0.9
+job,self-emplyed,self-employed,1,Typo in spelling; 'emplyed' should be 'employed',0.9
+job,entrepeneur,entrepreneur,1,Typo in spelling; 'entrepeneur' should be 'entrepreneur',0.9
+job,admn.,admin.,1,Abbreviation inconsistency; 'admn.' is a common typo for 'admin.',0.8
+job,retire,retired,1,Incomplete form; 'retire' should be 'retired' for the job category,0.7
+job,unknon,unknown,1,Typo for 'unknown' (missing 'n'),0.9
+job,blue-cllar,blue-collar,1,Typo for 'blue-collar' (extra 'l' and missing 'o'),0.8
+job,service,services,1,Missing 's' in the allowed value 'services',0.7
+job,self-mployed,self-employed,1,Typo for 'self-employed' (missing 'e'),0.8
+job,rtired,retired,1,Typo for 'retired' (missing 'e'),0.9
+job,retred,retired,1,Typo for 'retired' (missing 'i'),0.9
+job,entreprener,entrepreneur,1,Typo for 'entrepreneur' (missing 'n'),0.9
+job,serices,services,1,Typo for 'services' (missing 'v'),0.9
+job,housmaid,housemaid,1,Typo for 'housemaid' (missing 'e'),0.9
+job,hosemaid,housemaid,1,Typo for 'housemaid' (extra 'o'),0.9
+job,self-empoyed,self-employed,1,Typo in spelling (missing 'd' and extra 'y'),0.9
+job,unemploed,unemployed,1,Typo in spelling (missing 'y'),0.9
+job,admi.,admin.,1,Typo in spelling (missing 'n' and extra '.'),0.9
+job,uemployed,unemployed,1,Typo in spelling (missing 'n'),0.9
+job,ervices,services,1,Typo in spelling (missing 's' and extra 'v'),0.9
+marital,maried,married,29,Typo for 'married' (missing 'd'),0.9
+marital,marred,married,21,Typo for 'married' (extra 'd'),0.8
+marital,mrried,married,15,Typo for 'married' (missing 'a'),0.7
+marital,ingle,single,14,Typo for 'single' (missing 's'),0.8
+marital,sngle,single,12,Typo for 'single' (missing 's'),0.7
+marital,marrie,married,12,Typo for 'married' (missing 'd'),0.9
+marital,arried,married,12,Typo for 'married' (missing 'm'),0.9
+marital,marrid,married,9,Typo for 'married' (missing 'e'),0.9
+marital,sigle,single,9,Typo for 'single' (missing 'n'),0.9
+marital,singl,single,8,Typo for 'single' (missing 'e'),0.9
+marital,sinle,single,7,Typo: missing 'g' in 'single',0.9
+marital,singe,single,6,Typo: missing 'l' in 'single',0.8
+marital,diorced,divorced,5,Typo: 'i' instead of 'i' (should be 'divorced'),0.7
+marital,divoced,divorced,5,Typo: 'o' instead of 'o' (should be 'divorced'),0.7
+marital,divored,divorced,4,Typo: 'o' instead of 'i' (should be 'divorced'),0.6
+marital,dvorced,divorced,4,Typo: missing 'i' in 'divorced',0.9
+marital,divorcd,divorced,3,Typo: extra 'c' instead of 'ce' in 'divorced',0.8
+marital,divorce,divorced,2,Incomplete form; missing 'ed' suffix for past tense,0.7
+marital,divrced,divorced,2,Typo: misplaced 'r' in 'divorced',0.8
+marital,ivorced,divorced,1,Typo: missing 'd' at the start of 'divorced',0.6
+education,secondar,secondary,17,Typo for 'secondary' (missing 'y'),0.9
+education,secondry,secondary,12,Typo for 'secondary' (extra 'r'),0.8
+education,seconary,secondary,12,Typo for 'secondary' (missing 'd'),0.8
+education,econdary,secondary,11,Typo for 'secondary' (missing 's'),0.7
+education,secodary,secondary,11,Typo for 'secondary' (wrong order of 'c' and 'o'),0.7
+education,ertiary,tertiary,11,"Missing 't' at the start, likely a typo for 'tertiary'",0.9
+education,seondary,secondary,11,Typo in 'secondary' (missing 'c' after 's'),0.9
+education,rimary,primary,10,Typo in 'primary' (missing 'p' at the start),0.9
+education,secndary,secondary,8,Typo in 'secondary' (missing 'c' after 's'),0.8
+education,tertiar,tertiary,7,Typo for 'tertiary' (missing 'y'),0.9
+education,scondary,secondary,7,Typo for 'secondary' (missing 'e'),0.9
+education,trtiary,tertiary,6,Typo for 'tertiary' (transposed 't' and 'r'),0.8
+education,primry,primary,5,Typo for 'primary' (missing 'a'),0.8
+education,pimary,primary,5,Typo for 'primary' (transposed 'p' and 'i'),0.8
+education,tertiay,tertiary,5,Typo for 'tertiary' (missing 'r'),0.9
+education,teriary,tertiary,5,Typo for 'tertiary' (missing 't'),0.9
+education,prmary,primary,5,Typo for 'primary' (missing 'i'),0.9
+education,tertary,tertiary,5,Typo for 'tertiary' (missing 'y'),0.9
+education,primar,primary,4,Typo for 'primary' (missing 'y'),0.9
+education,primay,primary,4,Typo for 'primary' (missing 'i'),0.9
+education,tertiry,tertiary,4,Typo for 'tertiary' (missing 'i'),0.9
+education,tetiary,tertiary,4,Typo for 'tertiary' (extra 'e'),0.8
+education,priary,primary,3,Typo for 'primary' (missing 'i'),0.8
+education,unknon,unknown,3,Typo for 'unknown' (missing 'w'),0.9
+education,unkown,unknown,2,Typo in spelling; common misspelling of 'unknown',0.9
+education,unnown,unknown,2,,0.8
+education,nknown,unknown,1,Typo in spelling; common misspelling of 'unknown',0.7
+default,nox,no,175,Suspicious value 'nox' is likely a typo for 'no' based on common misspellings and frequency (175 occurrences).,0.9
+default,yesx,yes,5,Suspicious value 'yesx' is likely a typo for 'yes' based on common misspellings and frequency (5 occurrences).,0.8
+housing,yesx,yes,93,Suspicious value 'yesx' likely a typo for 'yes' based on high frequency (93) and allowed values,0.9
+housing,nox,no,77,Suspicious value 'nox' likely a typo for 'no' based on high frequency (77) and allowed values,0.9
+loan,nox,no,136,Typo for 'no' with extra 'x' character,0.9
+loan,yesx,yes,30,Typo for 'yes' with extra 'x' character,0.8
+contact,celular,cellular,32,Typo for 'cellular' (missing 'l' at the end),0.9
+contact,cellulr,cellular,15,Typo for 'cellular' (extra 'r' at the end),0.8
+contact,celluar,cellular,12,Typo for 'cellular' (extra 'u' in the middle),0.8
+contact,cellula,cellular,12,Typo for 'cellular' (missing 'r' at the end),0.7
+contact,unkown,unknown,10,Typo for 'unknown' (missing 'n' in the middle),0.9
+contact,celllar,cellular,9,Typo for 'cellular' (missing 'u'),0.9
+contact,unnown,unknown,9,Typo for 'unknown' (missing 'k'),0.9
+contact,unknow,unknown,8,Typo for 'unknown' (missing 'n'),0.9
+contact,nknown,unknown,8,Typo for 'unknown' (missing 'u'),0.9
+contact,uknown,unknown,6,Typo for 'unknown' (missing 'n'),0.9
+contact,unknwn,unknown,6,"Typo for 'unknown' (missing 'n', extra 'w')",0.9
+contact,cllular,cellular,4,Typo for 'cellular' (extra 'l'),0.8
+contact,teephone,telephone,3,Typo for 'telephone' (missing 'l'),0.8
+contact,telephne,telephone,2,Typo for 'telephone' (missing 'o'),0.8
+contact,telehone,telephone,2,Typo for 'telephone' (missing 'p'),0.9
+contact,unknon,unknown,2,Typo for 'unknown' (missing 'w'),0.9
+contact,telepone,telephone,1,Typo for 'telephone' (extra 'e'),0.8
+month,mayx,may,55,Suspicious value 'mayx' likely a typo for 'may' (May in English). Frequency 55 suggests common error.,0.9
+month,augx,aug,34,Suspicious value 'augx' likely a typo for 'aug' (August). Frequency 34 suggests common error.,0.8
+month,febx,feb,9,Common typo where 'x' is added to the end of month abbreviations,0.9
+month,janx,jan,2,Common typo where 'x' is added to the end of month abbreviations,0.8
+poutcome,nknown,unknown,29,Typo for 'unknown' (missing 'n' in 'unknown'),0.9
+poutcome,unnown,unknown,26,Typo for 'unknown' (missing 'n' in 'unknown'),0.9
+poutcome,unknon,unknown,22,Typo for 'unknown' (extra 'n' in 'unknown'),0.9
+poutcome,unknow,unknown,20,Typo for 'unknown' (missing 'n' in 'unknown'),0.9
+poutcome,uknown,unknown,18,Typo for 'unknown' (missing 'n' in 'unknown'),0.9
+poutcome,unknwn,unknown,13,"Typo in spelling (missing 'n' and extra 'w'), common misspelling of 'unknown'",0.9
+poutcome,unkown,unknown,13,"Typo in spelling (missing 'n' and extra 'w'), common misspelling of 'unknown'",0.9
+poutcome,failue,failure,4,"Typo in spelling (extra 'u' and missing 'r'), common misspelling of 'failure'",0.8
+poutcome,filure,failure,4,"Typo in spelling (extra 'l' and missing 'r'), common misspelling of 'failure'",0.8
+poutcome,faiure,failure,2,"Typo in spelling (missing 'l' and extra 'u'), common misspelling of 'failure'",0.7
+poutcome,ther,failure,2,Typo for 'failure' (missing 'i'),0.8
+poutcome,sucess,success,2,Typo for 'success' (extra 'c'),0.9
+poutcome,othe,other,2,Typo for 'other' (missing 'r'),0.8
+poutcome,oher,other,2,Typo for 'other' (extra 'h'),0.8
+poutcome,falure,failure,2,Typo for 'failure' (missing 'i'),0.8
+poutcome,othr,other,2,Typo for 'other' (common misspelling with 'r' and 'h' swapped),0.9
+poutcome,failur,failure,2,Typo for 'failure' (missing 'e' and has extra 'u'),0.8

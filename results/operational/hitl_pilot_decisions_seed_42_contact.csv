@@ -1,0 +1,6 @@
+original_value,suggested_value,reason,confidence,decision
+celular,cellular,Typo: missing 'l' in 'cellular',0.9,approve
+ellular,cellular,Typo: missing 'c' at the start,0.8,approve
+cllular,cellular,Typo: extra 'l' in 'cellular',0.7,approve
+celluar,cellular,Typo: missing 'l' in 'cellular',0.8,approve
+unkown,unknown,Typo: missing 'n' in 'unknown',0.9,reject

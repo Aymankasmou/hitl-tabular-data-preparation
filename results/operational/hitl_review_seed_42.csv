@@ -1,0 +1,167 @@
+column,original_value,suggested_value,reason,confidence,: ,decision,reviewed
+contact,celllar,cellular,Typo for 'cellular' (extra 'l'),0.9,,,False
+contact,celluar,cellular,Typo: missing 'l' in 'cellular',0.8,,,False
+contact,cellula,cellular,Typo for 'cellular' (missing 'r'),0.9,,,False
+contact,cellulr,cellular,Typo for 'cellular' (missing 'a'),0.9,,,False
+contact,celular,cellular,Typo: missing 'l' in 'cellular',0.9,,,False
+contact,cllular,cellular,Typo: extra 'l' in 'cellular',0.7,,,False
+contact,elephone,telephone,Typo for 'telephone' (missing 't'),0.8,,,False
+contact,ellular,cellular,Typo: missing 'c' at the start,0.8,,,False
+contact,nknown,unknown,Typo for 'unknown' (missing 'u'),0.9,,,False
+contact,teephone,telephone,Typo in 'telephone' (extra 'e'),0.7,,,False
+contact,telephne,telephone,Typo for 'telephone' (missing 'n'),0.8,,,False
+contact,telephon,telephone,Typo in 'telephone' (missing 'e'),0.8,,,False
+contact,telphone,telephone,Typo in 'telephone' (missing 'e'),0.8,,,False
+contact,uknown,unknown,Typo for 'unknown' (missing 'n'),0.9,,,False
+contact,unknon,unknown,Typo for 'unknown' (missing 'n'),0.9,,,False
+contact,unknow,unknown,Typo for 'unknown' (missing 'n'),0.9,,,False
+contact,unknwn,unknown,Typo in 'unknown' (missing 'n' and extra 'w'),0.9,,,False
+contact,unkown,unknown,Typo: missing 'n' in 'unknown',0.9,,,False
+contact,unnown,unknown,Typo for 'unknown' (missing 'n'),0.9,,,False
+default,nox,no,Typo for 'no' with extra 'x' character,0.95,,,False
+default,yesx,yes,Typo for 'yes' with extra 'x' character,0.95,,,False
+education,econdary,secondary,Typo: missing 's' in 'secondary',0.9,,,False
+education,ertiary,tertiary,"Missing 't' in the beginning, likely a typo for 'tertiary'",0.8,,,False
+education,nknown,unknown,Missing 'n' in 'unknown' (typo),0.9,,,False
+education,pimary,primary,Typo: missing 'u' in 'primary',0.9,,,False
+education,priary,primary,"Typo with 'i' and 'y' swapped, likely a typo for 'primary'",0.9,,,False
+education,primar,primary,Missing 'y' in 'primary' (typo),0.8,,,False
+education,primay,primary,Typo for 'primary' (missing 'r'),0.8,,,False
+education,primry,primary,"Typo with 'y' and 'i' swapped, likely a typo for 'primary'",0.8,,,False
+education,prmary,primary,Typo for 'primary' (missing 'i'),0.9,,,False
+education,rimary,primary,Typo: missing 'u' in 'primary',0.9,,,False
+education,scondary,secondary,Typo: misplaced 'c' in 'secondary',0.9,,,False
+education,secndary,secondary,Typo for 'secondary' (missing 'c'),0.8,,,False
+education,secodary,secondary,Typo for 'secondary' (wrong order of letters),0.7,,,False
+education,seconary,secondary,Typo: misplaced 'a' in 'secondary',0.9,,,False
+education,secondar,secondary,Typo: missing 'y' in 'secondary',0.9,,,False
+education,seconday,secondary,Typo for 'secondary' (extra 'd'),0.8,,,False
+education,secondry,secondary,Typo for 'secondary' (missing 'i'),0.9,,,False
+education,seondary,secondary,Typo: misplaced 'o' in 'secondary',0.9,,,False
+education,teriary,tertiary,Missing 't' in 'tertiary' (typo),0.8,,,False
+education,tertary,tertiary,"Missing 'i' in the middle, likely a typo for 'tertiary'",0.8,,,False
+education,tertiar,tertiary,Typo for 'tertiary' (missing 'y'),0.8,,,False
+education,tertiay,unknown,Typo for 'tertiary' but frequency is low; better to mark as unknown to avoid incorrect correction,0.5,,,False
+education,tertiry,tertiary,Typo for 'tertiary' (missing 'i'),0.7,,,False
+education,tetiary,tertiary,Typo for 'tertiary' (missing 'r'),0.9,,,False
+education,trtiary,tertiary,"Typo with 't' and 'r' swapped, likely a typo for 'tertiary'",0.7,,,False
+education,uknown,unknown,Typo: 'u' instead of 'u' (should be 'unknown'),0.8,,,False
+education,unknon,unknown,Typo: missing 'n' in 'unknown',0.9,,,False
+education,unkown,unknown,Typo: missing 'n' in 'unknown',0.9,,,False
+education,unnown,unknown,Typo: 'u' instead of 'u' (should be 'unknown'),0.8,,,False
+housing,nox,no,Suggest 'no' as 'nox' is likely a typo for 'no' (common misspelling with extra 'x'),0.9,,,False
+housing,yesx,yes,,0.9,"reason"": ""Suggest 'yes' as 'yesx' is likely a typo for 'yes' (common misspelling with extra 'x')""",,False
+job,admi.,admin.,Typo in 'admin.' (missing 'n'),0.9,,,False
+job,admin,admin.,Missing the trailing period from 'admin.',0.7,,,False
+job,admn.,admin.,Abbreviation for 'admin' with a period; matches allowed value 'admin.',0.8,,,False
+job,amin.,admin.,Typo for 'admin.' (missing 'i' and extra '.' at end),0.8,,,False
+job,anagement,management,Typo in 'management' (missing 'm' and extra 'a'),0.9,,,False
+job,ble-collar,blue-collar,Missing hyphen in the category name; common typo for 'blue-collar',0.9,,,False
+job,blu-collar,blue-collar,"Typo for 'blue-collar' (missing 'e', extra 'u')",0.8,,,False
+job,blue-cllar,blue-collar,"Typo in 'blue-collar' (missing 'o', extra 'l')",0.9,,,False
+job,blue-colar,blue-collar,Typo in 'blue-collar' (wrong spelling of 'collar'),0.9,,,False
+job,blue-colla,blue-collar,Typo for 'blue-collar' (missing 'r'),0.8,,,False
+job,blue-collr,blue-collar,Typo for 'blue-collar' (extra 'r'),0.8,,,False
+job,blue-ollar,blue-collar,Typo for 'blue-collar' (misspelled 'collar' as 'ollar'),0.8,,,False
+job,bluecollar,blue-collar,Typo for 'blue-collar' (missing hyphen),0.9,,,False
+job,bue-collar,blue-collar,Typo in 'blue-collar' (wrong spelling of 'blue'),0.9,,,False
+job,dmin.,admin.,Typo for 'admin.' with missing 'a' and extra '.',0.8,,,False
+job,echnician,technician,Typo in 'technician' (missing 't'),0.9,,,False
+job,entrepreneu,entrepreneur,Typo for 'entrepreneur' (missing 'r' and extra 'u'),0.9,,,False
+job,entreprenur,entrepreneur,Typo in spelling; common misspelling of 'entrepreneur',0.9,,,False
+job,entrereneur,entrepreneur,Typo for 'entrepreneur' (extra 'r' and missing 'e'),0.8,,,False
+job,ervices,services,Missing 's' at the start; common typo for 'services',0.9,,,False
+job,etired,retired,Typo for 'retired' (missing 'r'),0.9,,,False
+job,houseaid,housemaid,Typo for 'housemaid' (missing 'm' and extra 'i'),0.9,,,False
+job,housemad,housemaid,Typo for 'housemaid' with missing 'i' and extra 'd',0.8,,,False
+job,lue-collar,blue-collar,Typo for 'blue-collar' (missing 'b'),0.8,,,False
+job,maagement,management,Typo for 'management' (missing 'e' and extra 'a'),0.9,,,False
+job,manaement,management,Typo for 'management' (extra 'a' and missing 'e'),0.8,,,False
+job,manageent,management,Typo in 'management' (missing 'm' and extra 'e'),0.9,,,False
+job,managemen,management,Typo for 'management' (missing 'e' and extra 'n'),0.9,,,False
+job,managemet,management,Missing 'n' in the category name; common typo for 'management',0.9,,,False
+job,managemnt,management,Typo for 'management' with missing 'e' and extra 't',0.8,,,False
+job,managment,management,Typo for 'management' (extra 'm' and missing 'e'),0.8,,,False
+job,mangement,management,Typo in 'management' (missing 'a'),0.9,,,False
+job,mnagement,management,Typo for 'management' (missing 'a' and extra 'n'),0.8,,,False
+job,reired,retired,Typo for 'retired' (extra 'e'),0.8,,,False
+job,retied,retired,Typo in spelling; common misspelling of 'retired',0.9,,,False
+job,retird,retired,Typo in spelling; common misspelling of 'retired',0.9,,,False
+job,retred,retired,Typo for 'retired' (missing 'i'),0.9,,,False
+job,self-emloyed,self-employed,"Typo for 'self-employed' (missing 'p', extra 'o')",0.8,,,False
+job,self-emploed,self-employed,Typo for 'self-employed' (missing 'y'),0.8,,,False
+job,serices,services,Typo for 'services' (missing 'v'),0.9,,,False
+job,service,services,Typo for 'services' (missing 's'),0.7,,,False
+job,servics,services,"Typo for 'services' (missing 'e', extra 'c')",0.8,,,False
+job,sevices,services,Typo for 'services' with missing 'r' and extra 's',0.9,,,False
+job,slf-employed,self-employed,Typo for 'self-employed' (missing 'e'),0.8,,,False
+job,srvices,services,Typo for 'services' (missing 'i'),0.8,,,False
+job,stdent,student,Typo for 'student' (missing 'u'),0.9,,,False
+job,studen,student,Typo for 'student' (missing 't'),0.9,,,False
+job,studet,student,Typo for 'student' (missing 'n'),0.9,,,False
+job,studnt,student,,0.9,"reason"": ""Typo for 'student' (missing 'e' and extra 't')""",,False
+job,sudent,student,Typo for 'student' (missing 'u'),0.9,,,False
+job,tchnician,technician,Typo for 'technician' (missing 'e' and extra 'c'),0.9,,,False
+job,techician,technician,Typo in 'technician' (extra 't'),0.9,,,False
+job,techncian,technician,Typo for 'technician' (extra 'c'),0.8,,,False
+job,technican,technician,Typo for 'technician' (missing 'n'),0.8,,,False
+job,technicia,technician,Typo for 'technician' (missing 'n'),0.8,,,False
+job,technicin,technician,Typo for 'technician' (extra 'i' and missing 'n'),0.8,,,False
+job,techniian,technician,Typo in 'technician' (extra 'i' and missing 'c'),0.9,,,False
+job,tecnician,technician,Typo in spelling; 'tecnician' should be 'technician' based on allowed values list,0.9,,,False
+job,unempoyed,unemployed,Typo in spelling; common misspelling of 'unemployed',0.9,,,False
+job,unknow,unknown,Typo for 'unknown' (missing 'n'),0.9,,,False
+job,unkown,unknown,Typo for 'unknown' (missing 'n'),0.9,,,False
+loan,nox,no,Typo for 'no' with extra 'x' character,0.95,,,False
+loan,yesx,yes,Typo for 'yes' with extra 'x' character,0.95,,,False
+marital,arried,married,Typo: missing 'm' at start,0.7,,,False
+marital,diorced,divorced,Typo: extra 'i' and missing 'v' in 'diorced' (common misspelling of 'divorced'),0.8,,,False
+marital,divoced,divorced,Typo: missing 'r' in 'divoced' (common misspelling of 'divorced'),0.8,,,False
+marital,divorcd,divorced,Typo: missing 'e' in 'divorcd' (common misspelling of 'divorced'),0.9,,,False
+marital,divorce,divorced,"Incorrect category: 'divorce' is a verb/noun, not a marital status category",0.7,,,False
+marital,divrced,divorced,Typo: missing 'o' and extra 'c' in 'divrced' (common misspelling of 'divorced'),0.9,,,False
+marital,dvorced,divorced,Missing 'i' in 'dvorced'; common typo for 'divorced',0.8,,,False
+marital,ingle,single,Typo for 'single' (missing 's'),0.7,,,False
+marital,ivorced,divorced,Missing 'd' in 'ivorced'; common typo for 'divorced',0.8,,,False
+marital,maried,married,Typo: missing 'd' in 'married',0.9,,,False
+marital,marred,married,Typo for 'married' (incorrect spelling),0.8,,,False
+marital,marrid,married,Typo: extra 'i' in 'marrid',0.8,,,False
+marital,marrie,married,Typo: extra 'e' in 'marrie',0.8,,,False
+marital,mrried,married,Typo: missing 'a' in 'mrried',0.8,,,False
+marital,sigle,single,Typo for 'single' (missing 'n'),0.9,,,False
+marital,singe,single,Typo for 'single' (missing 'n'),0.8,,,False
+marital,singl,single,Missing 'e' in 'single'; common typo for 'single',0.8,,,False
+marital,sinle,single,Missing 'e' in 'sinle'; common typo for 'single',0.8,,,False
+marital,sngle,single,Typo for 'single' (missing 'i'),0.9,,,False
+month,aprx,apr,Common typo for April (apr) with extra 'x' character,0.9,,,False
+month,augx,aug,Suspicious value 'augx' likely a typo for 'aug' (August in English). Frequency 24 suggests common error.,0.8,,,False
+month,decx,dec,Suspicious value 'decx' is likely a typo for 'dec' (December).,0.7,,,False
+month,febx,feb,Common typo for February (feb) with extra 'x' character,0.8,,,False
+month,janx,jan,Common typo for January (jan) with extra 'x' character,0.9,,,False
+month,julx,jul,Suspicious value 'julx' likely a typo for 'jul' (July in English). Frequency 30 suggests common error.,0.8,,,False
+month,junx,jun,Suspicious value 'junx' likely a typo for 'jun' (June in English). Frequency 24 suggests common error.,0.8,,,False
+month,marx,mar,Suspicious value 'marx' is likely a typo for 'mar' (March).,0.8,,,False
+month,mayx,may,Suspicious value 'mayx' likely a typo for 'may' (May in English). Frequency 45 suggests common error.,0.9,,,False
+month,novx,nov,Suspicious value 'novx' likely a typo for 'nov' (November in English). Frequency 18 suggests common error.,0.7,,,False
+month,octx,oct,Common typo for October (oct) with extra 'x' character,0.7,,,False
+month,sepx,sep,Common typo for September (sep) with extra 'x' character,0.6,,,False
+poutcome,ailure,failure,Typo for 'failure' (missing 'f' in 'ailure'),0.8,,,False
+poutcome,failre,failure,Typo: missing 'i' in 'failure',0.9,,,False
+poutcome,failue,failure,Typo for 'failure' (missing 'l' in 'failue'),0.8,,,False
+poutcome,failur,failure,Typo: missing 'i' in 'failure',0.9,,,False
+poutcome,faiure,failure,Typo for 'failure' (missing 'l' in 'faiure'),0.8,,,False
+poutcome,falure,failure,Typo: missing 'i' in 'failure',0.9,,,False
+poutcome,filure,failure,Typo for 'failure' (missing 'i'),0.9,,,False
+poutcome,nknown,unknown,Typo for 'unknown' (extra 'n'),0.9,,,False
+poutcome,oher,other,Typo for 'other' (missing 'h'),0.9,,,False
+poutcome,oter,other,Typo for 'other' (missing 'h'),0.9,,,False
+poutcome,sccess,success,Typo for 'success' (missing 'u'),0.9,,,False
+poutcome,succes,success,Typo for 'success' (missing 'u'),0.9,,,False
+poutcome,succss,success,Typo: missing 'c' in 'success',0.9,,,False
+poutcome,sucess,success,Typo: missing 'c' in 'success',0.9,,,False
+poutcome,uknown,unknown,Typo for 'unknown' (missing 'n'),0.9,,,False
+poutcome,unknon,unknown,Typo for 'unknown' (missing 'n' in 'unknon'),0.9,,,False
+poutcome,unknow,unknown,Typo for 'unknown' (missing 'n'),0.9,,,False
+poutcome,unknwn,unknown,Typo for 'unknown' (missing 'n'),0.9,,,False
+poutcome,unkown,unknown,Typo for 'unknown' (missing 'n' in 'unkown'),0.9,,,False
+poutcome,unnown,unknown,Typo for 'unknown' (missing 'n'),0.9,,,False

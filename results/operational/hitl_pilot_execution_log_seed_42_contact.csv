@@ -1,0 +1,5 @@
+column,original_value,suggested_value,affected_rows,reason,confidence
+contact,celular,cellular,25,Typo: missing 'l' in 'cellular',0.9
+contact,ellular,cellular,19,Typo: missing 'c' at the start,0.8
+contact,cllular,cellular,18,Typo: extra 'l' in 'cellular',0.7
+contact,celluar,cellular,12,Typo: missing 'l' in 'cellular',0.8

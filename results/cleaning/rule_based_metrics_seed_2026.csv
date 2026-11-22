@@ -1,0 +1,2 @@
+seed,total_corrupted,total_changed,correct_repairs,incorrect_repairs,harmful_clean_changes,missed_corruptions,precision,recall,f1
+2026,6000,4287,3476,811,0,1713,0.8108234196407744,0.5793333333333334,0.6758044133372219

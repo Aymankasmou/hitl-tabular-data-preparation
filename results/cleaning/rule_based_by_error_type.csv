@@ -1,0 +1,13 @@
+Seed,Error Type,Total,Detected,Correctly Repaired,Repair Precision,Repair Recall
+42,categorical_typo,1500,1500,1500,1.0,1.0
+42,format_inconsistency,1500,1500,1500,1.0,1.0
+42,missing_value,1500,1500,553,0.36866666666666664,0.36866666666666664
+42,numerical_shift,1500,672,0,0.0,0.0
+123,categorical_typo,1500,1500,1500,1.0,1.0
+123,format_inconsistency,1500,1500,1500,1.0,1.0
+123,missing_value,1500,1500,582,0.388,0.388
+123,numerical_shift,1500,670,0,0.0,0.0
+2026,categorical_typo,1500,1500,1500,1.0,1.0
+2026,format_inconsistency,1500,1500,1500,1.0,1.0
+2026,missing_value,1500,1500,532,0.3546666666666667,0.3546666666666667
+2026,numerical_shift,1500,687,0,0.0,0.0

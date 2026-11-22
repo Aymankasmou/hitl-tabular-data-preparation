@@ -1,0 +1,2 @@
+column,total_corrupted,total_changed,correct_repairs,incorrect_repairs,harmful_clean_changes,missed_corruptions,repair_precision,repair_recall,repair_f1
+contact,407,55,55,0,0,352,1.0,0.13513513513513514,0.2380952380952381

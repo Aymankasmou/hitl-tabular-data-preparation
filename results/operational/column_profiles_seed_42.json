@@ -1,0 +1,1349 @@
+{
+    "age": {
+        "column_type": "numeric",
+        "missing_count": 97,
+        "missing_percentage": 2.43,
+        "unique_count": 103,
+        "valid_numeric_count": 3903,
+        "statistics": {
+            "min": -14.0,
+            "max": 109.0,
+            "mean": 40.636,
+            "median": 39.0,
+            "standard_deviation": 13.221,
+            "q1": 32.0,
+            "q3": 49.0
+        },
+        "iqr_candidates": {
+            "lower_bound": 6.5,
+            "upper_bound": 74.5,
+            "count": 118,
+            "percentage": 3.02,
+            "sample_values": [
+                "79.0",
+                "5.0",
+                "-3.0",
+                "88.0",
+                "-4.0",
+                "80.0",
+                "1.0",
+                "84.0",
+                "85.0",
+                "-4.0"
+            ]
+        }
+    },
+    "job": {
+        "column_type": "categorical",
+        "missing_count": 109,
+        "missing_percentage": 2.72,
+        "unique_count": 84,
+        "whitespace_variation_count": 166,
+        "case_variation_count": 166,
+        "top_values": [
+            {
+                "value": "blue-collar",
+                "count": 785,
+                "percentage": 19.62
+            },
+            {
+                "value": "management",
+                "count": 741,
+                "percentage": 18.52
+            },
+            {
+                "value": "technician",
+                "count": 560,
+                "percentage": 14.0
+            },
+            {
+                "value": "admin.",
+                "count": 424,
+                "percentage": 10.6
+            },
+            {
+                "value": "services",
+                "count": 323,
+                "percentage": 8.08
+            },
+            {
+                "value": "retired",
+                "count": 182,
+                "percentage": 4.55
+            },
+            {
+                "value": "unemployed",
+                "count": 126,
+                "percentage": 3.15
+            },
+            {
+                "value": "housemaid",
+                "count": 116,
+                "percentage": 2.9
+            },
+            {
+                "value": "self-employed",
+                "count": 115,
+                "percentage": 2.88
+            },
+            {
+                "value": null,
+                "count": 109,
+                "percentage": 2.73
+            },
+            {
+                "value": "entrepreneur",
+                "count": 101,
+                "percentage": 2.53
+            },
+            {
+                "value": "student",
+                "count": 67,
+                "percentage": 1.68
+            },
+            {
+                "value": " MANAGEMENT ",
+                "count": 36,
+                "percentage": 0.9
+            },
+            {
+                "value": " BLUE-COLLAR ",
+                "count": 31,
+                "percentage": 0.78
+            },
+            {
+                "value": " TECHNICIAN ",
+                "count": 31,
+                "percentage": 0.78
+            },
+            {
+                "value": " SERVICES ",
+                "count": 20,
+                "percentage": 0.5
+            },
+            {
+                "value": "unknown",
+                "count": 18,
+                "percentage": 0.45
+            },
+            {
+                "value": " ADMIN. ",
+                "count": 15,
+                "percentage": 0.38
+            },
+            {
+                "value": " RETIRED ",
+                "count": 10,
+                "percentage": 0.25
+            },
+            {
+                "value": "manageent",
+                "count": 8,
+                "percentage": 0.2
+            }
+        ],
+        "rare_values": [
+            {
+                "value": "amin.",
+                "count": 5
+            },
+            {
+                "value": "manaement",
+                "count": 5
+            },
+            {
+                "value": "mnagement",
+                "count": 5
+            },
+            {
+                "value": " UNEMPLOYED ",
+                "count": 5
+            },
+            {
+                "value": "blue-ollar",
+                "count": 5
+            },
+            {
+                "value": " ENTREPRENEUR ",
+                "count": 5
+            },
+            {
+                "value": "managment",
+                "count": 5
+            },
+            {
+                "value": "technicia",
+                "count": 5
+            },
+            {
+                "value": "techncian",
+                "count": 4
+            },
+            {
+                "value": "lue-collar",
+                "count": 4
+            }
+        ],
+        "sample_values": [
+            "managemnt",
+            "admin.",
+            "entrepreneur",
+            "management",
+            "housemaid",
+            "services",
+            "retired",
+            "technician",
+            "blue-collar",
+            " BLUE-COLLAR "
+        ]
+    },
+    "marital": {
+        "column_type": "categorical",
+        "missing_count": 100,
+        "missing_percentage": 2.5,
+        "unique_count": 26,
+        "whitespace_variation_count": 158,
+        "case_variation_count": 158,
+        "top_values": [
+            {
+                "value": "married",
+                "count": 2133,
+                "percentage": 53.33
+            },
+            {
+                "value": "single",
+                "count": 992,
+                "percentage": 24.8
+            },
+            {
+                "value": "divorced",
+                "count": 444,
+                "percentage": 11.1
+            },
+            {
+                "value": null,
+                "count": 100,
+                "percentage": 2.5
+            },
+            {
+                "value": " MARRIED ",
+                "count": 85,
+                "percentage": 2.12
+            },
+            {
+                "value": " SINGLE ",
+                "count": 47,
+                "percentage": 1.18
+            },
+            {
+                "value": "maried",
+                "count": 33,
+                "percentage": 0.83
+            },
+            {
+                "value": " DIVORCED ",
+                "count": 26,
+                "percentage": 0.65
+            },
+            {
+                "value": "marrid",
+                "count": 18,
+                "percentage": 0.45
+            },
+            {
+                "value": "mrried",
+                "count": 17,
+                "percentage": 0.43
+            },
+            {
+                "value": "arried",
+                "count": 16,
+                "percentage": 0.4
+            },
+            {
+                "value": "marrie",
+                "count": 14,
+                "percentage": 0.35
+            },
+            {
+                "value": "sigle",
+                "count": 12,
+                "percentage": 0.3
+            },
+            {
+                "value": "marred",
+                "count": 12,
+                "percentage": 0.3
+            },
+            {
+                "value": "sngle",
+                "count": 11,
+                "percentage": 0.27
+            },
+            {
+                "value": "singe",
+                "count": 10,
+                "percentage": 0.25
+            },
+            {
+                "value": "ingle",
+                "count": 5,
+                "percentage": 0.12
+            },
+            {
+                "value": "singl",
+                "count": 5,
+                "percentage": 0.12
+            },
+            {
+                "value": "ivorced",
+                "count": 4,
+                "percentage": 0.1
+            },
+            {
+                "value": "dvorced",
+                "count": 4,
+                "percentage": 0.1
+            }
+        ],
+        "rare_values": [
+            {
+                "value": "ingle",
+                "count": 5
+            },
+            {
+                "value": "singl",
+                "count": 5
+            },
+            {
+                "value": "ivorced",
+                "count": 4
+            },
+            {
+                "value": "dvorced",
+                "count": 4
+            },
+            {
+                "value": "sinle",
+                "count": 4
+            },
+            {
+                "value": "divored",
+                "count": 2
+            },
+            {
+                "value": "divrced",
+                "count": 2
+            },
+            {
+                "value": "diorced",
+                "count": 1
+            },
+            {
+                "value": "divorce",
+                "count": 1
+            },
+            {
+                "value": "divorcd",
+                "count": 1
+            }
+        ],
+        "sample_values": [
+            "single",
+            "married",
+            "divorced",
+            "marrid",
+            " DIVORCED ",
+            "ivorced",
+            " MARRIED ",
+            "arried",
+            "sngle",
+            "mrried"
+        ]
+    },
+    "education": {
+        "column_type": "categorical",
+        "missing_count": 79,
+        "missing_percentage": 1.98,
+        "unique_count": 37,
+        "whitespace_variation_count": 184,
+        "case_variation_count": 184,
+        "top_values": [
+            {
+                "value": "secondary",
+                "count": 1831,
+                "percentage": 45.77
+            },
+            {
+                "value": "tertiary",
+                "count": 1052,
+                "percentage": 26.3
+            },
+            {
+                "value": "primary",
+                "count": 545,
+                "percentage": 13.63
+            },
+            {
+                "value": "unknown",
+                "count": 142,
+                "percentage": 3.55
+            },
+            {
+                "value": " SECONDARY ",
+                "count": 98,
+                "percentage": 2.45
+            },
+            {
+                "value": null,
+                "count": 79,
+                "percentage": 1.98
+            },
+            {
+                "value": " TERTIARY ",
+                "count": 46,
+                "percentage": 1.15
+            },
+            {
+                "value": " PRIMARY ",
+                "count": 34,
+                "percentage": 0.85
+            },
+            {
+                "value": "econdary",
+                "count": 14,
+                "percentage": 0.35
+            },
+            {
+                "value": "seondary",
+                "count": 14,
+                "percentage": 0.35
+            },
+            {
+                "value": "secondar",
+                "count": 12,
+                "percentage": 0.3
+            },
+            {
+                "value": "scondary",
+                "count": 12,
+                "percentage": 0.3
+            },
+            {
+                "value": "seconary",
+                "count": 10,
+                "percentage": 0.25
+            },
+            {
+                "value": "secondry",
+                "count": 9,
+                "percentage": 0.22
+            },
+            {
+                "value": "seconday",
+                "count": 8,
+                "percentage": 0.2
+            },
+            {
+                "value": "secodary",
+                "count": 8,
+                "percentage": 0.2
+            },
+            {
+                "value": "primay",
+                "count": 7,
+                "percentage": 0.18
+            },
+            {
+                "value": "tertiry",
+                "count": 7,
+                "percentage": 0.18
+            },
+            {
+                "value": "ertiary",
+                "count": 7,
+                "percentage": 0.18
+            },
+            {
+                "value": "trtiary",
+                "count": 7,
+                "percentage": 0.18
+            }
+        ],
+        "rare_values": [
+            {
+                "value": "tertary",
+                "count": 5
+            },
+            {
+                "value": "primry",
+                "count": 5
+            },
+            {
+                "value": "tetiary",
+                "count": 5
+            },
+            {
+                "value": "prmary",
+                "count": 5
+            },
+            {
+                "value": "tertiar",
+                "count": 4
+            },
+            {
+                "value": "secndary",
+                "count": 4
+            },
+            {
+                "value": "tertiay",
+                "count": 3
+            },
+            {
+                "value": "nknown",
+                "count": 3
+            },
+            {
+                "value": "teriary",
+                "count": 2
+            },
+            {
+                "value": "primar",
+                "count": 2
+            }
+        ],
+        "sample_values": [
+            "tertiary",
+            "secondary",
+            "primary",
+            " SECONDARY ",
+            "unknown",
+            "secondry",
+            "tertiay",
+            "tertiar",
+            " TERTIARY ",
+            "secondar"
+        ]
+    },
+    "default": {
+        "column_type": "categorical",
+        "missing_count": 109,
+        "missing_percentage": 2.72,
+        "unique_count": 6,
+        "whitespace_variation_count": 179,
+        "case_variation_count": 179,
+        "top_values": [
+            {
+                "value": "no",
+                "count": 3497,
+                "percentage": 87.42
+            },
+            {
+                "value": " NO ",
+                "count": 176,
+                "percentage": 4.4
+            },
+            {
+                "value": "nox",
+                "count": 149,
+                "percentage": 3.72
+            },
+            {
+                "value": null,
+                "count": 109,
+                "percentage": 2.73
+            },
+            {
+                "value": "yes",
+                "count": 62,
+                "percentage": 1.55
+            },
+            {
+                "value": "yesx",
+                "count": 4,
+                "percentage": 0.1
+            },
+            {
+                "value": " YES ",
+                "count": 3,
+                "percentage": 0.07
+            }
+        ],
+        "rare_values": [
+            {
+                "value": "yesx",
+                "count": 4
+            },
+            {
+                "value": " YES ",
+                "count": 3
+            }
+        ],
+        "sample_values": [
+            "no",
+            "nox",
+            " NO ",
+            "yes",
+            " YES ",
+            "yesx"
+        ]
+    },
+    "balance": {
+        "column_type": "numeric",
+        "missing_count": 74,
+        "missing_percentage": 1.85,
+        "unique_count": 2275,
+        "valid_numeric_count": 3926,
+        "statistics": {
+            "min": -9528.0,
+            "max": 52527.0,
+            "mean": 1343.846,
+            "median": 443.0,
+            "standard_deviation": 3573.498,
+            "q1": 50.25,
+            "q3": 1557.5
+        },
+        "iqr_candidates": {
+            "lower_bound": -2210.625,
+            "upper_bound": 3818.375,
+            "count": 602,
+            "percentage": 15.33,
+            "sample_values": [
+                "4655.0",
+                "-7915.0",
+                "-8638.0",
+                "7707.0",
+                "17019.0",
+                "-8597.0",
+                "27069.0",
+                "17946.0",
+                "-8224.0",
+                "5894.0"
+            ]
+        }
+    },
+    "housing": {
+        "column_type": "categorical",
+        "missing_count": 117,
+        "missing_percentage": 2.92,
+        "unique_count": 6,
+        "whitespace_variation_count": 179,
+        "case_variation_count": 179,
+        "top_values": [
+            {
+                "value": "yes",
+                "count": 1949,
+                "percentage": 48.73
+            },
+            {
+                "value": "no",
+                "count": 1572,
+                "percentage": 39.3
+            },
+            {
+                "value": null,
+                "count": 117,
+                "percentage": 2.93
+            },
+            {
+                "value": "nox",
+                "count": 93,
+                "percentage": 2.33
+            },
+            {
+                "value": " YES ",
+                "count": 90,
+                "percentage": 2.25
+            },
+            {
+                "value": "yesx",
+                "count": 90,
+                "percentage": 2.25
+            },
+            {
+                "value": " NO ",
+                "count": 89,
+                "percentage": 2.23
+            }
+        ],
+        "rare_values": [],
+        "sample_values": [
+            "yes",
+            "no",
+            " NO ",
+            "nox",
+            " YES ",
+            "yesx"
+        ]
+    },
+    "loan": {
+        "column_type": "categorical",
+        "missing_count": 112,
+        "missing_percentage": 2.8,
+        "unique_count": 6,
+        "whitespace_variation_count": 171,
+        "case_variation_count": 171,
+        "top_values": [
+            {
+                "value": "no",
+                "count": 3004,
+                "percentage": 75.1
+            },
+            {
+                "value": "yes",
+                "count": 547,
+                "percentage": 13.68
+            },
+            {
+                "value": " NO ",
+                "count": 143,
+                "percentage": 3.57
+            },
+            {
+                "value": "nox",
+                "count": 134,
+                "percentage": 3.35
+            },
+            {
+                "value": null,
+                "count": 112,
+                "percentage": 2.8
+            },
+            {
+                "value": "yesx",
+                "count": 32,
+                "percentage": 0.8
+            },
+            {
+                "value": " YES ",
+                "count": 28,
+                "percentage": 0.7
+            }
+        ],
+        "rare_values": [],
+        "sample_values": [
+            "no",
+            "yes",
+            " YES ",
+            "yesx",
+            "nox",
+            " NO "
+        ]
+    },
+    "contact": {
+        "column_type": "categorical",
+        "missing_count": 92,
+        "missing_percentage": 2.3,
+        "unique_count": 25,
+        "whitespace_variation_count": 154,
+        "case_variation_count": 154,
+        "top_values": [
+            {
+                "value": "cellular",
+                "count": 2321,
+                "percentage": 58.03
+            },
+            {
+                "value": "unknown",
+                "count": 1045,
+                "percentage": 26.12
+            },
+            {
+                "value": "telephone",
+                "count": 227,
+                "percentage": 5.67
+            },
+            {
+                "value": " CELLULAR ",
+                "count": 99,
+                "percentage": 2.48
+            },
+            {
+                "value": null,
+                "count": 92,
+                "percentage": 2.3
+            },
+            {
+                "value": " UNKNOWN ",
+                "count": 42,
+                "percentage": 1.05
+            },
+            {
+                "value": "celular",
+                "count": 25,
+                "percentage": 0.62
+            },
+            {
+                "value": "ellular",
+                "count": 19,
+                "percentage": 0.47
+            },
+            {
+                "value": "cllular",
+                "count": 18,
+                "percentage": 0.45
+            },
+            {
+                "value": " TELEPHONE ",
+                "count": 13,
+                "percentage": 0.33
+            },
+            {
+                "value": "celluar",
+                "count": 12,
+                "percentage": 0.3
+            },
+            {
+                "value": "unkown",
+                "count": 11,
+                "percentage": 0.27
+            },
+            {
+                "value": "cellula",
+                "count": 11,
+                "percentage": 0.27
+            },
+            {
+                "value": "celllar",
+                "count": 11,
+                "percentage": 0.27
+            },
+            {
+                "value": "nknown",
+                "count": 11,
+                "percentage": 0.27
+            },
+            {
+                "value": "uknown",
+                "count": 9,
+                "percentage": 0.22
+            },
+            {
+                "value": "cellulr",
+                "count": 8,
+                "percentage": 0.2
+            },
+            {
+                "value": "unknon",
+                "count": 7,
+                "percentage": 0.18
+            },
+            {
+                "value": "unnown",
+                "count": 4,
+                "percentage": 0.1
+            },
+            {
+                "value": "unknow",
+                "count": 4,
+                "percentage": 0.1
+            }
+        ],
+        "rare_values": [
+            {
+                "value": "unnown",
+                "count": 4
+            },
+            {
+                "value": "unknow",
+                "count": 4
+            },
+            {
+                "value": "elephone",
+                "count": 3
+            },
+            {
+                "value": "telephne",
+                "count": 2
+            },
+            {
+                "value": "unknwn",
+                "count": 2
+            },
+            {
+                "value": "telephon",
+                "count": 2
+            },
+            {
+                "value": "teephone",
+                "count": 1
+            },
+            {
+                "value": "telphone",
+                "count": 1
+            }
+        ],
+        "sample_values": [
+            "cellular",
+            "unknown",
+            "telephone",
+            " UNKNOWN ",
+            " CELLULAR ",
+            "uknown",
+            "celluar",
+            "cllular",
+            "ellular",
+            "elephone"
+        ]
+    },
+    "day": {
+        "column_type": "numeric",
+        "missing_count": 99,
+        "missing_percentage": 2.48,
+        "unique_count": 78,
+        "valid_numeric_count": 3901,
+        "statistics": {
+            "min": -24.0,
+            "max": 55.0,
+            "mean": 15.56,
+            "median": 16.0,
+            "standard_deviation": 10.546,
+            "q1": 8.0,
+            "q3": 22.0
+        },
+        "iqr_candidates": {
+            "lower_bound": -13.0,
+            "upper_bound": 43.0,
+            "count": 101,
+            "percentage": 2.59,
+            "sample_values": [
+                "48.0",
+                "-15.0",
+                "52.0",
+                "-17.0",
+                "-19.0",
+                "-18.0",
+                "-17.0",
+                "-19.0",
+                "51.0",
+                "-20.0"
+            ]
+        }
+    },
+    "month": {
+        "column_type": "categorical",
+        "missing_count": 97,
+        "missing_percentage": 2.43,
+        "unique_count": 36,
+        "whitespace_variation_count": 166,
+        "case_variation_count": 166,
+        "top_values": [
+            {
+                "value": "may",
+                "count": 1075,
+                "percentage": 26.88
+            },
+            {
+                "value": "jul",
+                "count": 531,
+                "percentage": 13.28
+            },
+            {
+                "value": "aug",
+                "count": 499,
+                "percentage": 12.47
+            },
+            {
+                "value": "jun",
+                "count": 419,
+                "percentage": 10.47
+            },
+            {
+                "value": "nov",
+                "count": 308,
+                "percentage": 7.7
+            },
+            {
+                "value": "apr",
+                "count": 238,
+                "percentage": 5.95
+            },
+            {
+                "value": "feb",
+                "count": 212,
+                "percentage": 5.3
+            },
+            {
+                "value": "jan",
+                "count": 122,
+                "percentage": 3.05
+            },
+            {
+                "value": null,
+                "count": 97,
+                "percentage": 2.43
+            },
+            {
+                "value": "oct",
+                "count": 64,
+                "percentage": 1.6
+            },
+            {
+                "value": " MAY ",
+                "count": 52,
+                "percentage": 1.3
+            },
+            {
+                "value": "mayx",
+                "count": 45,
+                "percentage": 1.12
+            },
+            {
+                "value": "sep",
+                "count": 43,
+                "percentage": 1.07
+            },
+            {
+                "value": "mar",
+                "count": 38,
+                "percentage": 0.95
+            },
+            {
+                "value": "julx",
+                "count": 30,
+                "percentage": 0.75
+            },
+            {
+                "value": " JUL ",
+                "count": 29,
+                "percentage": 0.73
+            },
+            {
+                "value": " AUG ",
+                "count": 26,
+                "percentage": 0.65
+            },
+            {
+                "value": "junx",
+                "count": 24,
+                "percentage": 0.6
+            },
+            {
+                "value": "augx",
+                "count": 24,
+                "percentage": 0.6
+            },
+            {
+                "value": "novx",
+                "count": 18,
+                "percentage": 0.45
+            }
+        ],
+        "rare_values": [
+            {
+                "value": " OCT ",
+                "count": 5
+            },
+            {
+                "value": "octx",
+                "count": 4
+            },
+            {
+                "value": " SEP ",
+                "count": 3
+            },
+            {
+                "value": "sepx",
+                "count": 2
+            },
+            {
+                "value": "marx",
+                "count": 2
+            },
+            {
+                "value": " JAN ",
+                "count": 1
+            },
+            {
+                "value": "decx",
+                "count": 1
+            },
+            {
+                "value": " MAR ",
+                "count": 1
+            },
+            {
+                "value": " DEC ",
+                "count": 1
+            }
+        ],
+        "sample_values": [
+            "apr",
+            "may",
+            "jul",
+            "feb",
+            "jun",
+            "nov",
+            " MAY ",
+            "aug",
+            "mar",
+            " NOV "
+        ]
+    },
+    "campaign": {
+        "column_type": "numeric",
+        "missing_count": 112,
+        "missing_percentage": 2.8,
+        "unique_count": 42,
+        "valid_numeric_count": 3888,
+        "statistics": {
+            "min": -9.0,
+            "max": 73.0,
+            "mean": 2.763,
+            "median": 2.0,
+            "standard_deviation": 3.959,
+            "q1": 1.0,
+            "q3": 3.0
+        },
+        "iqr_candidates": {
+            "lower_bound": -2.0,
+            "upper_bound": 6.0,
+            "count": 466,
+            "percentage": 11.99,
+            "sample_values": [
+                "11.0",
+                "13.0",
+                "12.0",
+                "11.0",
+                "15.0",
+                "8.0",
+                "9.0",
+                "12.0",
+                "11.0",
+                "-8.0"
+            ]
+        }
+    },
+    "pdays": {
+        "column_type": "numeric",
+        "missing_count": 99,
+        "missing_percentage": 2.48,
+        "unique_count": 307,
+        "valid_numeric_count": 3901,
+        "statistics": {
+            "min": -294.0,
+            "max": 842.0,
+            "mean": 38.484,
+            "median": -1.0,
+            "standard_deviation": 120.555,
+            "q1": -1.0,
+            "q3": -1.0
+        },
+        "iqr_candidates": {
+            "lower_bound": -1.0,
+            "upper_bound": -1.0,
+            "count": 873,
+            "percentage": 22.38,
+            "sample_values": [
+                "343.0",
+                "292.0",
+                "100.0",
+                "-294.0",
+                "168.0",
+                "189.0",
+                "362.0",
+                "194.0",
+                "292.0",
+                "182.0"
+            ]
+        }
+    },
+    "previous": {
+        "column_type": "numeric",
+        "missing_count": 91,
+        "missing_percentage": 2.28,
+        "unique_count": 34,
+        "valid_numeric_count": 3909,
+        "statistics": {
+            "min": -14.0,
+            "max": 275.0,
+            "mean": 0.554,
+            "median": 0.0,
+            "standard_deviation": 5.994,
+            "q1": 0.0,
+            "q3": 0.0
+        },
+        "iqr_candidates": {
+            "lower_bound": 0.0,
+            "upper_bound": 0.0,
+            "count": 880,
+            "percentage": 22.51,
+            "sample_values": [
+                "2.0",
+                "-14.0",
+                "15.0",
+                "1.0",
+                "16.0",
+                "1.0",
+                "1.0",
+                "14.0",
+                "1.0",
+                "2.0"
+            ]
+        }
+    },
+    "poutcome": {
+        "column_type": "categorical",
+        "missing_count": 113,
+        "missing_percentage": 2.82,
+        "unique_count": 28,
+        "whitespace_variation_count": 143,
+        "case_variation_count": 143,
+        "top_values": [
+            {
+                "value": "unknown",
+                "count": 2972,
+                "percentage": 74.3
+            },
+            {
+                "value": "failure",
+                "count": 361,
+                "percentage": 9.03
+            },
+            {
+                "value": "other",
+                "count": 130,
+                "percentage": 3.25
+            },
+            {
+                "value": "success",
+                "count": 126,
+                "percentage": 3.15
+            },
+            {
+                "value": " UNKNOWN ",
+                "count": 120,
+                "percentage": 3.0
+            },
+            {
+                "value": null,
+                "count": 113,
+                "percentage": 2.83
+            },
+            {
+                "value": "unnown",
+                "count": 24,
+                "percentage": 0.6
+            },
+            {
+                "value": "nknown",
+                "count": 20,
+                "percentage": 0.5
+            },
+            {
+                "value": "unknwn",
+                "count": 19,
+                "percentage": 0.47
+            },
+            {
+                "value": "uknown",
+                "count": 19,
+                "percentage": 0.47
+            },
+            {
+                "value": "unknow",
+                "count": 16,
+                "percentage": 0.4
+            },
+            {
+                "value": "unknon",
+                "count": 14,
+                "percentage": 0.35
+            },
+            {
+                "value": "unkown",
+                "count": 13,
+                "percentage": 0.33
+            },
+            {
+                "value": " FAILURE ",
+                "count": 12,
+                "percentage": 0.3
+            },
+            {
+                "value": " SUCCESS ",
+                "count": 6,
+                "percentage": 0.15
+            },
+            {
+                "value": "failue",
+                "count": 5,
+                "percentage": 0.12
+            },
+            {
+                "value": " OTHER ",
+                "count": 5,
+                "percentage": 0.12
+            },
+            {
+                "value": "faiure",
+                "count": 5,
+                "percentage": 0.12
+            },
+            {
+                "value": "ailure",
+                "count": 4,
+                "percentage": 0.1
+            },
+            {
+                "value": "falure",
+                "count": 3,
+                "percentage": 0.07
+            }
+        ],
+        "rare_values": [
+            {
+                "value": "failue",
+                "count": 5
+            },
+            {
+                "value": " OTHER ",
+                "count": 5
+            },
+            {
+                "value": "faiure",
+                "count": 5
+            },
+            {
+                "value": "ailure",
+                "count": 4
+            },
+            {
+                "value": "falure",
+                "count": 3
+            },
+            {
+                "value": "failur",
+                "count": 3
+            },
+            {
+                "value": "sucess",
+                "count": 2
+            },
+            {
+                "value": "failre",
+                "count": 2
+            },
+            {
+                "value": "succss",
+                "count": 1
+            },
+            {
+                "value": "oter",
+                "count": 1
+            }
+        ],
+        "sample_values": [
+            "unknown",
+            "failure",
+            " SUCCESS ",
+            "nknown",
+            "other",
+            "success",
+            " UNKNOWN ",
+            "ailure",
+            "unknow",
+            "unkown"
+        ]
+    }
+}
